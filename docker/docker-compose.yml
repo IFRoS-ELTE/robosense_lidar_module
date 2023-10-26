@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   # This defines the name of the service. make sure to change it to your own name
-  ros1_rs_lidar_sercice:
+  ros1_rs_lidar_service:
     # This is the name of the image that will be used to build the container. "." means the Dockerfile is in the same directory as the docker-compose.yml file
     build: .
     image: ros1_rs_lidar_driver:latest
